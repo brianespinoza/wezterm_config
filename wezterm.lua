@@ -58,7 +58,7 @@ local config = {
 }
 
 -- Use the defaults as a base
-config.hyperlink_rules = wezterm.default_hyperlink_rules()
+config.hyperlink_rules = w.default_hyperlink_rules()
 
 
 -- make username/project paths clickable. this implies paths like the following are for github.
